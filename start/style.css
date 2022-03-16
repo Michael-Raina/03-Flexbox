@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 15vh;
+    width: 100%;
+}
+
+section {
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    height: 15vh;
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+    background-color: grey;
+}
+
+.logo {
+    margin-left: 30px;
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+}
+
+.navbar {    
+    text-align: center; 
+    width: 200px;
+    height: 100%;
+}
+
+.menu li a {
+    font-size: large;   
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #2b2bb2;
+    transition: all 0.3s ease;
+}
+
+.menu_user {
+    margin-left: auto;
+}
+.menu {
+    list-style: none;
+}
+
+.avatar {
+    justify-self: flex-end;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all .3s ease;
+    margin-right: 30px;
+}
